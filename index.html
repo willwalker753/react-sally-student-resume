@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sally Student Resume</title>
+</head>
+<body>
+    <div id="application-root"></div>
+    <script
+        src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script
+        src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script
+        src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script type="text/babel">
+        ReactDOM.render(
+            <div>
+                <header>
+                    <h1>Sally Student</h1>
+                </header>
+                <section> 
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Picture of Sally" height="400"></img>
+                </section>
+                <section>
+                    <header>
+                        <h3>Contact Info:</h3>
+                    </header>
+                    <address> 
+                        <a href="mailto:sallystudent@decent.com" target="_blank">sallystudent@decent.com</a>
+                        <p>123-456-7890</p>
+
+                    </address>
+                </section>
+                <section>
+                    <header>
+                        <h3>Education:</h3>
+                    </header>
+                        <ul>
+                        <li>Massachusetts Institute of Technology Bachelors of Science in Aerospace Engineering 1975-1979<br></br><br></br></li>
+                        <li>Harvard Law School 1982-1985</li>
+                        </ul>
+                    <header> 
+                        <h3>Employment:</h3>
+                    </header>
+                            <ul>
+                            <li>Enron, Janitor, 1985-1993, Lorem ipsum something or the other yup that sounds about right and now on to the next one<br></br><br></br></li>
+                            <li>Goldman Sachs, Money Counter, 1993-2019, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis sed laborum, accusantium ut dolore asperiores ea enim, hic fuga corporis? Id cupiditate, voluptatibus veniam doloribus consectetur quia! Quae, eveniet?</li>
+                            </ul>
+                    </section>
+                </div>
+            ,
+            document.querySelector('#application-root')
+        );
+    </script>
+</body>
+</html>
